@@ -1,0 +1,24 @@
+{
+  "name": "es6-sharing",
+  "version": "1.0.0",
+  "description": "source: https://es6.io",
+  "main": "000_createclass.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/levichen/es6-sharing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/levichen/es6-sharing/issues"
+  },
+  "homepage": "https://github.com/levichen/es6-sharing#readme",
+  "dependencies": {
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2"
+  }
+}
