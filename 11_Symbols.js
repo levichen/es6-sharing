@@ -43,12 +43,12 @@
 
 // 6. Go though all of element
 // can not use for in/for of
-const obj = {}
-let a = Symbol('a')
-let b = Symbol('b')
+// const obj = {}
+// let a = Symbol('a')
+// let b = Symbol('b')
 
-obj[a] = 'Hello'
-obj[b] = 'World'
+// obj[a] = 'Hello'
+// obj[b] = 'World'
 
 // for (let e in obj) {
 //   console.log(e)
@@ -58,6 +58,6 @@ obj[b] = 'World'
 //   console.log(o)
 // }
 
-const objectSymbols = Object.getOwnPropertySymbols(obj)
+// const objectSymbols = Object.getOwnPropertySymbols(obj)
 
-console.log(objectSymbols)
+// console.log(objectSymbols)

@@ -1,4 +1,6 @@
 
+// Requirement: format the phone number
+
 const phoneHandler = {
   set (target, property, value) {
     target[property] = value.match(/[0-9]/g).join('')
